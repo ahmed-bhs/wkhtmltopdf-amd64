@@ -20,15 +20,15 @@ This package can be found on [Packagist](http://packagist.org) and installed wit
 
 Require the package for _i386_ with:
 
-    php composer.phar require h4cc/wkhtmltopdf-i386 "0.12.6"
+    php composer.phar require ahmedbhs/wkhtmltopdf-i386 "0.12.6"
 
 And for _amd64_ with:
 
-    php composer.phar require h4cc/wkhtmltopdf-amd64 "0.12.6"
+    php composer.phar require ahmedbhs/wkhtmltopdf-amd64 "0.12.6"
 
 The binary will then be located at:
 
-    vendor/h4cc/wkhtmltopdf-i386/bin/wkhtmltopdf-i386
+    vendor/ahmedbhs/wkhtmltopdf-i386/bin/wkhtmltopdf-i386
 
 Also a symlink will be created in your configured bin/ folder, for example:
 
@@ -39,11 +39,11 @@ Also a symlink will be created in your configured bin/ folder, for example:
 You can use the path constant to easily locate the binary in the PHP codebase: 
 
 ``` php
-$path = \h4cc\WKHTMLToPDF\WKHTMLToPDF::PATH;
+$path = \ahmedbhs\WKHTMLToPDF\WKHTMLToPDF::PATH;
 ```
 
 For realpath use following script
 
 ``` php
-$realpath = realpath(\h4cc\WKHTMLToPDF\WKHTMLToPDF::PATH);
+$realpath = realpath(\ahmedbhs\WKHTMLToPDF\WKHTMLToPDF::PATH);
 ```
